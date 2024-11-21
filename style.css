@@ -1,0 +1,130 @@
+*{
+  margin: 0px;
+  padding: opx;
+}
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 70px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links li {
+  margin-right: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.nav-links li:hover {
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  text-align: center;
+}
+
+.nav-links a:hover {
+  color: #ff385c;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#search-input {
+  width: 200px;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  border-radius: 100px;
+}
+
+#search-input:focus {
+  border: 1px solid #ff385c;
+  box-shadow: 0 0 10px rgba(255, 56, 92, 0.5);
+}
+
+#search-btn {
+  background-color: #ff385c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 100px;
+}
+#search-btn:hover {
+  background-color: #e53a6c;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-corner {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Yeh code profile corner ko right side mein lagata hai */
+}
+
+.profile-corner img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile-corner span {
+  font-size: 16px;
+  color: #333;
+}
+
+.product {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .product-img {
+    border-radius: 50px;
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    }
+    .product-img {
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      }
+      
+      
+            
+  
+          
+  
+
+    
+        
